@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '@8#jq-edxdv3@)1+grrd00jl$d&*zo71a13n1m&uzb=bq!ivae'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]  # Set up for server
 
 # Application definition
 
@@ -75,6 +75,7 @@ WSGI_APPLICATION = 'Survey.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+# Configure for server
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
