@@ -1,0 +1,4 @@
+Django==2.2.10
+mysqlclient
+django-mysql
+django-rest-framework
