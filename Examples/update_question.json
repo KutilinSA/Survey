@@ -1,0 +1,20 @@
+{
+  "question":
+  {
+    "id": 12,
+    "survey": "this can't help. You are not allowed to change questions's survey",
+    "text": "New text. If question type is set to PT, all question answers will be deleted. Else, they will be recreated",
+    "question_type": "MC",
+    "question_answers": [
+      {
+        "text": "multiply choice (MC)"
+      },
+      {
+        "text": "single choice (SC)"
+      },
+      {
+        "text": "plain text (PT)"
+      }
+    ]
+  }
+}

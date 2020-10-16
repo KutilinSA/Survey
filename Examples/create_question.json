@@ -1,0 +1,19 @@
+{
+  "question":
+  {
+    "survey": 2,
+    "text": "Survey id is not necessary if you are creating question with /api/admin/surveys/<survey id>/questions/ POST",
+    "question_type": "MC",
+    "question_answers": [
+      {
+        "text": "multiply choice (MC)"
+      },
+      {
+        "text": "single choice (SC)"
+      },
+      {
+        "text": "plain text (PT)"
+      }
+    ]
+  }
+}

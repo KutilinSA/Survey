@@ -1,0 +1,7 @@
+{
+  "question_answer":
+  {
+    "question": 123,
+    "text": "One answer. Question id is not necessary if you are creating question answer with /api/admin/surveys/<survey id>/questions/<question id>/questions-answers/ or /api/admin/questions/<question id>/questions-answers/ POST"
+  }
+}

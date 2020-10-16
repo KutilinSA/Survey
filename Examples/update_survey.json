@@ -1,0 +1,30 @@
+{
+  "survey": {
+    "id": 26,
+    "title": "new title",
+    "description": "dates weren't given so they would not change. If questions are given, they will be fully recreated",
+
+    "questions": [
+      {
+        "text": "Question types can be (all answers are true):",
+        "question_type": "MC",
+        "question_answers": [
+          {
+            "text": "multiply choice (MC)"
+          },
+          {
+            "text": "single choice (SC)"
+          },
+          {
+            "text": "plain text (PT)"
+          }
+        ]
+      },
+      {
+        "text": "9 + 28?",
+        "question_type": "PT",
+        "question_answers": []
+      }
+    ]
+  }
+}

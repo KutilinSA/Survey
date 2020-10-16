@@ -1,0 +1,24 @@
+{
+    "user_answers": {
+        "user_ID": 1234,
+        "survey": 25,
+        "answers": [
+            {
+                "question": 4
+                "answer": "first answer, is't multiply choice!"
+            },
+            {
+                "question": 4
+                "answer": "second answer, is't multiply choice!"
+            },
+            {
+                "question": 4
+                "answer": "third answer, is't multiply choice!"
+            },
+            {
+                "question": 15
+                "answer": "plain text!"
+            }
+        ]
+    }
+}

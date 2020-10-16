@@ -1,0 +1,29 @@
+{
+  "survey": {
+    "title": "survey title",
+    "end_date": "2020-10-24",
+    "description": "survey description",
+    "questions": [
+      {
+        "text": "Question types can be (all answers are true):",
+        "question_type": "MC",
+        "question_answers": [
+          {
+            "text": "multiply choice (MC)"
+          },
+          {
+            "text": "single choice (SC)"
+          },
+          {
+            "text": "plain text (PT)"
+          }
+        ]
+      },
+      {
+        "text": "9 + 23?",
+        "question_type": "PT",
+        "question_answers": []
+      }
+    ]
+  }
+}
