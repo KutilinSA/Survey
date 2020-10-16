@@ -40,7 +40,7 @@ You can use (not admin):
 - \<your host url\>/api/completed-surveys/\<user id\>/\<survey id\>
 - - GET method: retrieve completed with the given user id survey with the given survey id
 
-You can use (admin - header should be with Token):
+You can use (admin - header should be with Token, exclude login method):
 - \<your host url\>/api/admin/login/
 - - POST method: logins you to the system and returns your token. Payload should include \"username\" and \"password\" in JSON
 - \<your host url\>/api/admin/\<surveys or questions or questions-answers\>
