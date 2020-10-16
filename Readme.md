@@ -4,11 +4,11 @@ To deploy project do next steps:
 - install MySQL and create user with username=\"Survey\" and password=\"Qwerty123_\" (or change it in Settings.py)
 - give all privileges to it
 - create database named \"Database\" (or change it in Settings.py)
-- create user for system (`python manage.py createsuperuser`)
-- generate token for him (`python manage.py drf_create_token)`
 - download the repository using GIT
 - create python virtual environment
 - install requirements (pip install -r requirements.txt)
+- create user for system (`python manage.py createsuperuser`)
+- generate token for him (`python manage.py drf_create_token)`
 Then connect your server with wsgi module (see your server docs). Else you can run project without real server just for test. Use `python manage.py runserver` command for this, then open any REST (you can even use plugins for browser) and make you requests to http://127.0.0.1:8000
 
 ## How to work
