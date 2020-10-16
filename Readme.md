@@ -43,28 +43,28 @@ You can use (not admin):
 You can use (admin - header should be with Token, exclude login method):
 - \<your host url\>/api/admin/login/
 - - POST method: logins you to the system and returns your token. Payload should include \"username\" and \"password\" in JSON
-- \<your host url\>/api/admin/\<surveys or questions or questions-answers\>
+- \<your host url\>/api/admin/\<surveys or questions or questions-answers\>/
 - - GET method: returns all surveys, questions or question-answers
 - - POST method: creates new survey, question or question-answer
 -  \<your host url\>/api/admin/\<surveys or questions or questions-answers\>/\<id\>/
 - - GET method: retrieves survey, question or question-answer with the given id
 - - PUT method: updates survey, question or question-answer with the given id using payload (look examples)
 - - DELETE method: removes survey, question or question-answer with the given id 
--  \<your host url\>/api/admin/surveys/\<survey id\>/\<questions or questions-answers\>
+-  \<your host url\>/api/admin/surveys/\<survey id\>/\<questions or questions-answers\>/
 - - GET method: returns all questions or question-answers that belongs to the given survey
 - - POST method: creates new question or question-answer that belongs to the given survey
 -  \<your host url\>/api/admin/surveys/\<survey id\>/\<questions or questions-answers\>/\<id\>/
 - - GET method: retrieves question or question-answer with the given id that belongs to the given survey
 - - PUT method: updates  question or question-answer with the given id that belongs to the given survey using payload (look examples)
 - - DELETE method: removes question or question-answer with the given id that belongs to the given survey
--  \<your host url\>/api/admin/surveys/\<survey id\>/questions/\<question id\>/questions-answers
+-  \<your host url\>/api/admin/surveys/\<survey id\>/questions/\<question id\>/questions-answers/
 - - GET method: returns all question-answers that belongs to the given survey and to the given question
 - - POST method: creates new question-answer that belongs to the given survey and to the given question
 -  \<your host url\>/api/admin/surveys/\<survey id\>/questions/\<question id\>/questions-answers/\<id\>/
 - - GET method: retrieves question-answer with the given id that belongs to the given survey and to the given question
 - - PUT method: updates  question or question-answer with the given id that belongs to the given survey and to the given question using payload (look examples)
 - - DELETE method: removes question or question-answer with the given id that belongs to the given survey and to the given question
--  \<your host url\>/api/admin/questions/\<question id\>/questions-answers
+-  \<your host url\>/api/admin/questions/\<question id\>/questions-answers/
 - - GET method: returns all question-answers that belongs to the given question
 - - POST method: creates new question-answer that belongs to the given question
 -  \<your host url\>/api/admin/questions/\<question id\>/questions-answers/\<id\>/
